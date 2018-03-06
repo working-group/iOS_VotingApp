@@ -6,4 +6,8 @@
 //  Copyright © 2018年 iOS_Training_day3_2. All rights reserved.
 //
 
-import Foundation
+class Enquete {
+    var questionId: Int = 0
+    var question: String = ""
+    var title: String = ""
+}
