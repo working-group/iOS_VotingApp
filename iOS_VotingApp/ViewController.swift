@@ -40,7 +40,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if let dict = response.result.value as? Dictionary<String, AnyObject> {
                 let enquete:[AnyObject] = dict["enquete"] as! [AnyObject]
                 for value in enquete {
-                    print(value)
+//                    print(value)
                     self.enquete = Enquete()
                     self.enquete?.questionId = value["id"] as! Int
                     self.enquete?.question   = value["question"]! as! String

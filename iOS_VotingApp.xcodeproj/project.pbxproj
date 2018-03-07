@@ -16,6 +16,7 @@
 		58180B99204BBB08009F7DDE /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58180B97204BBB08009F7DDE /* CustomCell.xib */; };
 		58732641204BF069001F52A3 /* Enquete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58732640204BF069001F52A3 /* Enquete.swift */; };
 		58A7F8E0204EEB3C0051FD45 /* VoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A7F8DF204EEB3C0051FD45 /* VoteViewController.swift */; };
+		58AA905C204F8931001E3258 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AA905B204F8931001E3258 /* ResultViewController.swift */; };
 		58E06EF9204D0EAD006D6DE0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E06EF8204D0EAD006D6DE0 /* DetailViewController.swift */; };
 		C5086B1FEF98817571DC1848 /* Pods_iOS_VotingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D984F40955ACE8B0F0FF415 /* Pods_iOS_VotingApp.framework */; };
 /* End PBXBuildFile section */
@@ -32,6 +33,7 @@
 		58180B97204BBB08009F7DDE /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		58732640204BF069001F52A3 /* Enquete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enquete.swift; sourceTree = "<group>"; };
 		58A7F8DF204EEB3C0051FD45 /* VoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoteViewController.swift; sourceTree = "<group>"; };
+		58AA905B204F8931001E3258 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		58E06EF8204D0EAD006D6DE0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		6F46D62F5E89EA1F1DF839E8 /* Pods-iOS_VotingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_VotingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS_VotingApp/Pods-iOS_VotingApp.debug.xcconfig"; sourceTree = "<group>"; };
 		8D984F40955ACE8B0F0FF415 /* Pods_iOS_VotingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_VotingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +84,7 @@
 				58180B8B204BB284009F7DDE /* Assets.xcassets */,
 				58180B8D204BB284009F7DDE /* LaunchScreen.storyboard */,
 				58180B90204BB284009F7DDE /* Info.plist */,
+				58AA905B204F8931001E3258 /* ResultViewController.swift */,
 			);
 			path = iOS_VotingApp;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			files = (
 				58A7F8E0204EEB3C0051FD45 /* VoteViewController.swift in Sources */,
 				58180B87204BB284009F7DDE /* ViewController.swift in Sources */,
+				58AA905C204F8931001E3258 /* ResultViewController.swift in Sources */,
 				58180B98204BBB08009F7DDE /* CustomCell.swift in Sources */,
 				58180B85204BB284009F7DDE /* AppDelegate.swift in Sources */,
 				58E06EF9204D0EAD006D6DE0 /* DetailViewController.swift in Sources */,

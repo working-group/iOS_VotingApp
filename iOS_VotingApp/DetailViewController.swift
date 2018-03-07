@@ -17,14 +17,24 @@ class DetailViewConroller: UIViewController {
     @IBOutlet weak var labelQuestion: UILabel!
     @IBOutlet weak var labelAnswers: UILabel!
     
+    @IBOutlet weak var voteButton: UIButton!
+    @IBOutlet weak var resultButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(enqueteId)
+        voteButton.backgroundColor = UIColor.white // 背景色
+        voteButton.layer.borderWidth = 1.0 // 枠線の幅
+        voteButton.layer.borderColor = UIColor.white.cgColor // 枠線の色
+        voteButton.layer.cornerRadius = 5.0 // 角丸のサイズ
+        resultButton.backgroundColor = UIColor.white // 背景色
+        resultButton.layer.borderWidth = 1.0 // 枠線の幅
+        resultButton.layer.borderColor = UIColor.white.cgColor // 枠線の色
+        resultButton.layer.cornerRadius = 5.0 // 角丸のサイズ
         // Voting-APIにアクセスする
         Alamofire.request("http://saitos.wmsol.info:56843/enquetes/\(enqueteId)").responseJSON {response in
             if let dict = response.result.value as? Dictionary<String, AnyObject> {
                 for value in dict {
-                    print(value)
+//                    print(value)
 //                    self.labelTitle.text = value["title"] as! String
 //                    self.labelQuestion.text = value["question"] as! String
 //                    self.labelAnswers.text  = value["selection"] as! String
